@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jan Parivartan - AI-powered microtransit platform providing sustainable transportation for underserved communities in India.">
+    <title>Jan Parivartan | Sustainable Microtransit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Jan Parivartan</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#booking">Book a Ride</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h2>Affordable and Sustainable Microtransit for India's Underserved Communities</h2>
+            <p>Jan Parivartan is transforming urban mobility with AI-powered, eco-friendly transportation solutions.</p>
+            <a href="#services" class="cta-button">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p><b>Jan Parivartan is an AI-powered microtransit platform dedicated to providing accessible, affordable, and eco-friendly transportation for underserved communities across India. Our mission is to empower these communities by transforming urban mobility and enhancing access to essential services.</p> </b>
+            <br/>
+            <p>With a fleet of electric vehicles and a demand-responsive routing system, we aim to reduce congestion, pollution, and transport inequity in urban areas. By leveraging advanced technology, we optimize our operations to ensure that our services are efficient and tailored to the unique needs of each community we serve.</p><br/>
+            <p>We recognize the transportation challenges faced by rural areas, where access to reliable transit options can be limited. Our solutions are designed to bridge the gap between rural and urban regions, enabling residents to reach employment opportunities, educational institutions, and healthcare facilities without the burden of long travel times or high costs.</p><br/>
+            <p>Our commitment to sustainability is reflected in our use of electric vehicles, which significantly reduce carbon emissions and contribute to cleaner air. By promoting eco-friendly transit solutions, we aim to foster a healthier environment for all community members.</p><br/>
+            <p>At Jan Parivartan, we believe in collaboration and community engagement. We work closely with local organizations and stakeholders to understand the specific needs of each community, ensuring that our services are relevant and impactful. Together, we can create a transportation ecosystem that not only meets the demands of today but also lays the groundwork for a more sustainable and equitable future.</p><br/>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>AI-Powered Microtransit</h3>
+                <p>Our AI-based platform optimizes routes and schedules dynamically, making public transit more efficient and responsive to real-time demand. By analyzing travel patterns and user preferences, we can adjust our services to better meet the needs of rural communities, ensuring timely transportation for essential activities like work, school, and healthcare visits.</p>
+            </div>
+            <div class="service">
+                <h3>Electric Vehicles</h3>
+                <p>We utilize electric vehicles to provide a sustainable and eco-friendly transit solution. Our commitment to reducing carbon emissions and pollution not only benefits urban areas but also promotes cleaner air in rural regions. By deploying electric vehicles, we help communities transition to greener transportation options while also lowering operating costs.</p>
+            </div>
+            <div class="service">
+                <h3>Accessible and Affordable</h3>
+                <p>Our service is tailored to the needs of underserved communities, including those in rural areas. We offer flexible pricing structures designed to be affordable for everyone, ensuring that transportation is accessible to all. By providing reliable transit options, we help bridge the mobility gap, enabling residents to reach essential services, jobs, and educational opportunities.</p>
+            </div>
+            <div class="service">
+                <h3>Community-Centric Approach</h3>
+                <p>We actively engage with local communities to understand their specific transportation needs. Through surveys, focus groups, and partnerships with local organizations, we ensure our services are designed with input from residents, making our transit solutions more relevant and effective.</p>
+            </div>
+            <div class="service">
+                <h3>Rural Connectivity</h3>
+                <p>Our microtransit services enhance connectivity between rural and urban areas, allowing residents to access city centers for employment, education, and healthcare. By linking remote villages with main transport hubs, we provide a lifeline for those who rely on public transit for daily commuting and essential services.</p>
+            </div>
+            <div class="service">
+                <h3>Safety and Reliability</h3>
+                <p>We prioritize the safety and reliability of our services. Our fleet is regularly maintained, and our drivers are trained to provide secure and efficient transportation. We also implement safety protocols to ensure that all passengers feel safe and comfortable during their journeys, which is especially important for rural areas where transportation options may be limited.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Booking Section -->
+    <!-- Book a Ride Section -->
+    <section id="book-ride">
+        <div class="container">
+            <h2>Book a Ride</h2>
+            <form id="booking-form">
+                <label for="pickup-location">Select Pickup Location:</label>
+                <select id="pickup-location" name="pickup-location" required>
+                    <option value="" disabled selected>Select your pickup location</option>
+                    <option value="village1">Village 1</option>
+                    <option value="village2">Village 2</option>
+                    <option value="village3">Village 3</option>
+                    <option value="town1">Town 1</option>
+                    <option value="town2">Town 2</option>
+                    <option value="town3">Town 3</option>
+                    <option value="town4">Town 4</option>
+                    <option value="town5">Town 5</option>
+                </select>
+
+                <label for="dropoff-location">Select Drop-off Location:</label>
+                <select id="dropoff-location" name="dropoff-location" required>
+                    <option value="" disabled selected>Select your drop-off location</option>
+                    <option value="village1">Village 1</option>
+                    <option value="village2">Village 2</option>
+                    <option value="village3">Village 3</option>
+                    <option value="town1">Town 1</option>
+                    <option value="town2">Town 2</option>
+                    <option value="town3">Town 3</option>
+                    <option value="town4">Town 4</option>
+                    <option value="town5">Town 5</option>
+                </select>
+
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Select Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <!-- Center the button -->
+                <div class="button-container">
+                    <button type="submit" class="cta-button">Book Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: contact@janparivartan.com</p>
+            <p>Phone: +91 9391442966</p>
+            <p>Address: VIT AP University Amaravathi-522237</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jan Parivartan. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
